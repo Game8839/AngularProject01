@@ -1,0 +1,19 @@
+<ng-template [ngIf]="selectedMenu == 'validation'">
+  <app-validation></app-validation>
+</ng-template>
+
+<ng-template [ngIf]="selectedMenu == 'mailing lists'">
+  <app-mailing-lists></app-mailing-lists>
+</ng-template>
+
+<ng-template [ngIf]="selectedMenu == 'ingestion queues'">
+  <app-ingestion-queues></app-ingestion-queues>
+</ng-template>
+
+<ng-template [ngIf]="selectedMenu == 'news'">
+  <app-news></app-news>
+</ng-template>
+
+<ng-template [ngIf]="selectedMenu == 'events'">
+  <app-events></app-events>
+</ng-template>

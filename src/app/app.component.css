@@ -1,0 +1,20 @@
+.headerClass {
+  background-color: blue;
+  display: flex;
+  min-height: 15vh;
+}
+
+.menu-class {
+  display: flex;
+}
+
+.content {
+  background-color: aqua;
+
+  width: 100%;
+}
+
+.sidemenu {
+  background-color: aquamarine;
+  width: 150px;
+}
